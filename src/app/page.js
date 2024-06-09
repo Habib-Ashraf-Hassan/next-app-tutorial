@@ -16,6 +16,7 @@ export default function Home() {
     <div>
       <Link href={'accounts'}> <button className="next-page-button">Go to Accounts</button></Link>
       <button className="next-page-button" onClick={handleNavigate}>Go to Admin</button>
+      <Link href={'server-fetch'}> <button className="next-page-button">Go to Server fetch data</button></Link>
     </div>
     </main>
   );
