@@ -11,13 +11,9 @@ export default function Home() {
     route.push('/accounts/admin')
   }
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <h1 className="styled-header">Next.js Tutorial</h1>
     <div>
-      <Link href={'accounts'}> <button className="next-page-button">Go to Accounts</button></Link>
-      <button className="next-page-button" onClick={handleNavigate}>Go to Admin</button>
-      <Link href={'server-fetch'}> <button className="next-page-button">Go to Server fetch data</button></Link>
+      <h1>Welcome to the Recipe App</h1>
+      <Link href={'/recipe-list'}>Explore Recipes</Link>
     </div>
-    </main>
   );
 }
